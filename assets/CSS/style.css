@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", serif;
+  color: #1C1E53 !important;
+}
+.active{
+  color: #5E3BEE !important;
+}
+.nav-link:hover{
+  color: #5E3BEE !important;
+}
+
+.light-blue-bg{
+  background-color: #F5FCFF !important;
+}
+
+/*  ==============Button style color=================  */
+.text-primary{
+  color: #5E3BEE !important;
+}
+.btn-primary{
+  border: 1px solid #5E3BEE;
+  background-color: #5E3BEE !important;
+  color: #ffffff !important;
+  transition: .3s !important;
+}
+.btn-primary:hover{
+  border: 1px solid #5E3BEE;
+  color: #5E3BEE !important;
+  background-color: transparent !important;
+
+}
+.btn-outline-primary{
+  border: 1px solid #5E3BEE !important;
+  color: #5E3BEE !important;
+  transition: .3s !important;
+}
+.btn-outline-primary:hover{
+  background-color: #5E3BEE !important;
+  color: #ffffff !important;
+}
+.border-primary{
+ border-bottom: 2px solid #5E3BEE !important;
+ transition: 2s all ease-in;
+}
+
+
+/* skills section */
+.card-border{
+    border: 0px !important;
+    border-bottom: 3px solid #5E3BEE !important;
+}
+.card-border-hover{
+    border: 0px;
+    transition: .2s !important; 
+    border-bottom: 3px solid transparent !important;                
+}
+.card-border-hover:hover{
+    border-bottom: 3px solid #5E3BEE !important;
+}
+.card-body .box-img .icon-box-image {
+	width: 50px !important;
+}
+
+/* portfolio section */
+.portfolio-btn .btn-img{
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.portfolio-btn .btn{
+  background-color: #E62872 !important;
+  border: 1px solid #E62872 !important;
+}
+.portfolio-btn .btn:hover{
+  border: 1px solid #E62872 !important;
+}
+
+/* testimonial section */
+.testimonials .profile{
+  width: 60px;
+  height: 60px;
+}
+
+/* contact section */
+.contact-section .btn-outline-primary{
+  border: 1px solid #5E3BEE !important;
+  color: #282938 !important;
+}
+.contact-section .btn-outline-primary:hover{
+  background-color: transparent !important;
+  color: #282938 !important;
+}
+
+/* footer section */
+.footer-section .footer-icons img{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  object-position: center center;
+}
